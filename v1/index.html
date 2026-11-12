@@ -101,6 +101,7 @@ body.notes-on #notes { display: block; }
   #viewport { position: static; display: block; }
   #stage { transform: none !important; width: auto; height: auto; }
   .slide { position: relative; visibility: visible !important; width: var(--W); height: var(--H); page-break-after: always; break-after: page; }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
   #hud, #notes { display: none !important; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
